@@ -7,8 +7,8 @@ node_modules
 
 # Production
 build
-client/src/contracts
-client/*/src/contracts
+#client/src/contracts
+#client/*/src/contracts
 
 # Testing
 coverage
@@ -22,6 +22,9 @@ coverage
 
 # Editor
 .vscode
+
+# Idea
+.idea
 
 # Misc.
 .DS_Store
